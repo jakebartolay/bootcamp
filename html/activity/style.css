@@ -1,0 +1,149 @@
+* {
+    font-family: 'Tahoma';
+}
+
+body {
+    margin: 0px;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#img1{
+    margin-right: 100px;
+}
+#img2{
+    margin-left: 100px;
+}
+
+.nav {
+    background-color: rgb(70, 130, 180);
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 70px;
+    color: #ffff;
+}
+
+.nav li:hover {
+    background-color: rgb(0, 0, 139);
+}
+
+li {
+    display: inline;
+}
+
+table, th, td{
+    border: 2px dotted black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    }
+
+tr:nth-child(even) {
+    background-color: lightgray;
+    }
+tr:hover{
+    background-color: #FFD580;
+}
+
+th{
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#expand {
+    margin: 20px;
+}
+
+#sub-color-blue {
+    color: rgb(70, 130, 180);
+    font-size: 45px;
+}
+
+#column {
+    margin: 1px 0px 0px 20px;
+    font-size: 20px;
+}
+
+#color-span {
+    color: rgb(70, 130, 180);
+    font-size: 30px;
+}
+
+#sub-color-pink {
+    color: rgb(255, 0, 216);
+}
+
+#sub-color-pink a{
+    text-decoration: none;
+}
+
+#sub-color-pink a:link {
+    color: blue;
+}
+
+
+#sub-color-pink a:visited {
+    color: orange;
+}
+
+#sub-color-pink a:hover {
+    color: magenta;
+    background-color: rgb(0, 0, 139);
+}
+
+#sub-color-pink a:active {
+    color: lime;
+}
+
+#footer-color {
+    color: gray;
+    font-size: 11px;
+    text-align: center;
+}
+
+#ul {
+    display: inline-block;
+    text-decoration: none;
+    list-style-position: inside;
+}
+
+div.gallery {
+    margin: 10px;   
+    width: 300px;
+    display: inline-block;
+  }
+  
+  div.gallery:hover {
+    box-shadow: 5px 5px 5px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }

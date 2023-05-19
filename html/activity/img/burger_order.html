@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Burger's - Order</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/burger-logo.png" alt="burger logo" class="img-fluid" width="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="burger_order.html">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" >Shop</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <div class="container-fluid my-5">
+        <div class="container">
+            <h1 class="display-1 mt-5">Order Here!</h1>
+            <div class="row">
+                <div class="col-lg-8">
+                    <table>
+                        <tr class="header-color">
+                            <th>Icons</th>
+                            <th>Item Name</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr class="color-meals">
+                            <th colspan="3" class="text-center">Meals</th>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/burger.png" width="150px" alt="Burger"></td>
+                            <td>Burger</td>
+                            <td>₱55.00</td>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/friedchicken.png" width="250px" alt="Fried Chicken"></td>
+                            <td>Fried Chicken</td>
+                            <td>₱55.00</td>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/spaghetti.png" width="150px" alt="Spaghetti"></td>
+                            <td>Spaghetti</td>
+                            <td>₱55.00</td>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/pizza.png" width="150px" alt="Pizza""></td>
+                        <td>Pizza</td>
+                        <td>₱150.00</td>
+                        </tr>
+                          <tr class="color-drinks">
+                            <th colspan="3" class="text-center">Drinks</th>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/coca-cola-drink.png" width="150px" alt="Coke"></td>
+                            <td>Coke</td>
+                            <td>₱20.00</td>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/sprite.png" width="50px"  alt="Sprite"></td>
+                            <td>Sprite</td>
+                            <td>₱20.00</td>
+                        </tr>
+                        <tr class="hover">
+                            <td class="text-center"><img src="img/sarsi.png" width="150px"  alt="Sarsi"></td>
+                            <td>Sarsi</td>
+                            <td>₱20.00</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" colspan="2" class="color-refund">All items are subject to tax. No refunds.
+                                All are not transferrable</td>
+                            <td class="hover">Extra Rice - ₱20.00</td>
+                        </tr>
+                        <tr>
+                            <td class="hover">Condiments - ₱20.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-lg-4">
+                    <img src="img/basil-sauce.png" alt="basil-sauce">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+    <div class="container text-white">
+        <h1 class="display-3 pt-5">Tell Us What You Think!</h1>
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="img/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato.jpg"
+                    alt="cucumber burger ingredients floating" class="w-100">
+            </div>
+            <div class="col-lg-6">
+                <form>
+                    <div class="">
+                        <label for="name" class="form-label">Name (optional):</label>
+                        <input type="email" class="form-control" id="name" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Provice (optional):</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">How many times have you went to our restaurant?</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              This is the first time!
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Second Time
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Third time or more
+                            </label>
+                          </div>
+                      </div>
+                      <label class="form-label">How would you rate the food?</label>
+                      <div class="mb-3 d-inline-flex">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐⭐⭐
+                            </label>
+                          </div>
+                      </div>
+                      <label class="form-label">How would you rate the services?</label>
+                      <div class="mb-3 d-inline-flex">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐⭐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                ⭐⭐⭐⭐⭐
+                            </label>
+                          </div>
+                      </div>
+                      <div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

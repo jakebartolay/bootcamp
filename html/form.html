@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display:    block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Philippine Online Voting</h1>
+    <form>
+        <label for="first_name">First name: </label>
+        <input type="text" id="first_name" name="firstname" placeholder="ex. Juan" required>
+        <label for="last_name">Last name: </label>
+        <input type="text" id="last_name"  name="firstname" placeholder="ex. Dela Cruz" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password"  name="password" placeholder="ex. capital & number" required>
+        <label for="con_password">Confirm Password:</label>
+        <input type="password" id="con_password"  name="password" placeholder="ex. capital & number" required>
+        <label for="provice">provice</label>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="ex. juandelacruz@gmail.com" required>
+        <input type="date" name="date" id="date">
+        <input type="number" name="number" id="number" placeholder="ex. +6375520857">
+        <input type="range" name="range" id="range" value="0">
+        <select name="provice" id="provice">
+            <option>Please select one</option>
+            <option value="Benguet">Benguet</option>
+            <option value="Metro Manila">Metro Manila</option>
+            <option value="Capiz">Capiz</option>
+            <option value="Zamboanga del sur">Zamboanga del sur</option>
+        </select>
+        <label for="profile_pic">Upload profile pic: </label>
+        <input type="file" name="prof_pic" accept="image/">
+        <label for="comments">Comments and suggestion:</label>
+        <textarea name="comments" id="comments" placeholder="Help Us improve our services by providing us with suggestion!" rows="10" cols="30"></textarea>
+        <h2>Senators</h2>
+        <input type="checkbox" name="bong_revilla" id="">Bong Revilla
+        <input type="checkbox" name="allan_cayetano" id="">Allan Cayetano
+        <input type="checkbox" name="raffy_tulfo" id="">Raffy Tulfo
+        <input type="checkbox" name="riza_hontiveros" id="">Riza Hontiveros
+        <input type="checkbox" name="robin_padilla" id="">Robin Padilla
+        <h2>Presidents</h2>
+        <input type="radio" name="presidents" id="" value="bong_marcos">Ferdinand Bong Bong Marcos
+        <input type="radio" name="presidents" id="" value="lenie_Robredo">Lenie Robredo
+        <input type="radio" name="presidents" id="" value="isko_moreno">Isko Robredo
+        <input type="submit" name="submit" value="Submit Vote" />
+    </form>
+</body>
+</html>

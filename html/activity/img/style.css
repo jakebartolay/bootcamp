@@ -1,0 +1,25 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.header-color{
+    background-color: rgb(255, 200, 99);
+}
+
+.color-meals, .color-drinks{
+    background-color: rgb(255, 229, 182);
+}
+
+.color-refund{
+    background-color: rgb(250, 238, 216);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.hover:hover{
+    background-color: orange;
+}

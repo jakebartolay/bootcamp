@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+    <style>
+                label{
+            display:    block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png" width="300px" alt="ISCP LOGO">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aCUhfPAyDHY?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Basic Information</h1>
+    <label for="first_name">First name:</label>
+    <input type="text" name="first_name" id="first_name" placeholder="ex. Juan" required>
+    <label for="last_last">Last name:</label>
+    <input type="text" name="last_name" id="last_name" placeholder="ex. Dela Cruz" required>
+    <label for="placeofbirth">Place of Birth:</label>
+    <input type="text" name="" id="placeofbirth" placeholder="ex. Rockville Subd, Quezon City" required>
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" name="birthdate" id="birthdate">
+    <label for="status">Civil Status:</label>
+    <select name="status" id="status">
+        <option>Please select one</option>
+        <option value="single">single</option>
+        <option value="married">married</option>
+        <option value="widowed">widowed</option>
+        <option value="separated">separated</option>
+    </select>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" checked required>Male
+    <input type="radio" name="gender" id="gender" required>Female
+    <input type="radio" name="gender" id="gender" required>Other
+    <label for="mother">Mother's maiden name:</label>
+    <input type="text" name="mother" id="mother" placeholder="ex. Shella Roxas" required>
+    <label for="father">Father's name:</label>
+    <input type="text" name="father" id="father" placeholder="ex. Alfredo Dela Cruz" required>
+
+    <h1>Contact information</h1>
+    <label for="email">Email addres:</label>
+    <input type="email" name="email" id="email" placeholder="ex. juandelacruz@gmail.com" required>
+    <label for="contact">Contact Number: </label>
+    <input type="text" name="last_name" id="last_name" placeholder="ex. 09485565871" required>
+    <label for="contact">Contact Number: </label>
+    <input type="text" name="last_name" id="last_name" placeholder="ex. 011-63-905-2" required>
+
+    <h1>Address</h1>
+    <label for="street">Street Number:</label>
+    <input type="text" name="street" id="street" placeholder="ex. Block 7 Lot 53" required>
+    <label for="streetname">Street Name:</label>
+    <input type="text" name="streetname" id="streetname" placeholder="ex. Rockville Subd" required>
+
+    <select name="barangay" id="barangay" required>
+        <option>Barangay</option>
+        <option value="barangay">barangay 1</option>
+        <option value="barangay">barangay 2</option>
+        <option value="barangay">barangay 3</option>
+        <option value="barangayr">barangay 4</option>
+    </select>
+    <select name="City_town" id="City_town" required>
+        <option>City town</option>
+        <option value="City_town">Caloocan city</option>
+        <option value="City_town">barangay 2</option>
+        <option value="City_town">barangay 3</option>
+        <option value="City_town">barangay 4</option>
+    </select>
+    <select name="province" id="province" required>
+        <option>Province</option>
+        <option value="province">Metro Manila</option>
+        <option value="province">Baguio</option>
+        <option value="province">NCR</option>
+        <option value="province">Davao</option>
+    </select>
+    <label for="full_address">Full address:</label>
+    <input type="text" name="full_address" id="full_address" placeholder="ex. Block 7 Lot 36 Rockville Subd" required>
+    <h1>Government information</h1>
+    <label for="sss_id">SSS ID: </label>
+    <input type="file" name="sss_id" accept="image/">
+    <label for="pagibig_id">Pag-Ibig ID: </label>
+    <input type="file" name="pagibig_id" accept="image/">
+    <label for="philhealth_id">PhilHealth ID: </label>
+    <input type="file" name="philhealth_id" accept="image/">
+    <label for="2x2_picture">Upload 2x2 picture: </label>
+    <input type="file" name="2x2_picture" accept="image/">
+    <label for="government_id">Upload picture of government ID: </label>
+    <input type="file" name="government_id" accept="image/">
+    <h1>Account information</h1>
+    <label for="username">Username: </label>
+    <input type="text" id="username" name="username" placeholder="ex. Juandelacruz123" required>
+    <label for="password">Password:</label>
+    <input type="password" id="password"  name="password" placeholder="ex. capital & number" required>
+    <label for="con_password">Confirm Password:</label>
+    <input type="password" id="con_password"  name="password" placeholder="ex. capital & number" required>
+    <label for="profile_pic">Upload profile image: </label>
+    <input type="file" name="profile_pic" accept="image/">
+    <h1>Have you experienced any of the following in the last 30 days?</h1>
+    <input type="checkbox" name="Coughing" id="survey"> Coughing
+    <input type="checkbox" name="Coughing" id="survey"> Fever
+    <input type="checkbox" name="Coughing" id="survey"> Headache
+    <input type="checkbox" name="Coughing" id="survey"> Common cold
+    <input type="checkbox" name="Coughing" id="survey"> Body ache
+    <input type="checkbox" name="Coughing" id="survey"> Sore throat
+    <input type="checkbox" name="Coughing" id="survey"> Tiredness
+    <input type="checkbox" name="Coughing" id="survey"> Loss of smell
+    <h1>Give a short description about yourself.</h1>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea><br>
+    <input type="button" value="Sign Up">
+</form>
+</body>
+</html>
